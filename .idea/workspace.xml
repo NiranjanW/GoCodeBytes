@@ -4,10 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7d974f6b-9346-459c-970c-50e44e788eae" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Datastrucures/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Datastrucures/maps.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Redis/main.go" afterDir="false" />
+    <list default="true" id="7d974f6b-9346-459c-970c-50e44e788eae" name="Default Changelist" comment="maps in go">
+      <change afterPath="$PROJECT_DIR$/Builder/builder.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Interface/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Kafka/kafkaConsumer.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Kafka/kafkaConsumerFunction.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Kafka/kafkaProducer.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Kafka/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pointers/pointerexample.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -26,6 +30,14 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
   <component name="ProjectId" id="1iYK8ZJp8E4HChJa5NNHNOqdK1j" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -38,7 +50,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../ProcessLargeFile" />
-    <property name="settings.editor.selected.configurable" value="web.server" />
+    <property name="settings.editor.selected.configurable" value="goland.project.structure" />
   </component>
   <component name="RunManager" selected="Go Build.go build main.go (1)">
     <configuration name="go build main.go (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
@@ -80,6 +92,10 @@
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="maps in go" />
+    <option name="LAST_COMMIT_MESSAGE" value="maps in go" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
@@ -87,6 +103,11 @@
           <url>file://$PROJECT_DIR$/Concurrency/channel2.go</url>
           <line>2</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/Kafka/kafkaProducer.go</url>
+          <line>43</line>
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
