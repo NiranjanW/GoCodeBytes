@@ -4,15 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7d974f6b-9346-459c-970c-50e44e788eae" name="Default Changelist" comment="maps in go">
-      <change afterPath="$PROJECT_DIR$/Builder/builder.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Interface/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Kafka/kafkaConsumer.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Kafka/kafkaConsumerFunction.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Kafka/kafkaProducer.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Kafka/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pointers/pointerexample.go" afterDir="false" />
+    <list default="true" id="7d974f6b-9346-459c-970c-50e44e788eae" name="Default Changelist" comment="go kafka producer/consumer">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +47,15 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../ProcessLargeFile" />
     <property name="settings.editor.selected.configurable" value="goland.project.structure" />
   </component>
-  <component name="RunManager" selected="Go Build.go build main.go (1)">
+  <component name="RunManager" selected="Go Build.go build kafkaProducer.go">
+    <configuration name="go build kafkaProducer.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="CodeBytes" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/Kafka/kafkaProducer.go" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
     <configuration name="go build main.go (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="CodeBytes" />
       <working_directory value="$PROJECT_DIR$" />
@@ -71,6 +74,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build kafkaProducer.go" />
         <item itemvalue="Go Build.go build main.go (1)" />
         <item itemvalue="Go Build.go build main.go" />
       </list>
@@ -94,7 +98,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="maps in go" />
-    <option name="LAST_COMMIT_MESSAGE" value="maps in go" />
+    <MESSAGE value="go kafka producer/consumer" />
+    <option name="LAST_COMMIT_MESSAGE" value="go kafka producer/consumer" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
